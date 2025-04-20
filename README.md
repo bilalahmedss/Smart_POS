@@ -1,29 +1,20 @@
-<!-- ## Smart POS 💸
+## Smart POS 💸
 
 A Point of Sale web app for businesses built with Python and Django for learning purposes.
 
-<a><img src="https://user-images.githubusercontent.com/95726794/212497770-a3e241e7-0c77-4573-9d22-8f0ae813e958.png" width="70%" heigth="70%"></a>
-<br></br>
-<a><img src="https://user-images.githubusercontent.com/95726794/212497784-80a48617-759c-4415-aa1c-4591b9892c3d.png" width="70%" heigth="70%"></a>
 
 ## Table of Contents:
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Run it locally](#run-it-locally)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Screenshots
-[Click Here](screenshots/README.md)
 
 ## Features
 - Login Page with User authentication
 - Dashboard Page with statistics and graphs
 - DataTables with print, copy, to CSV, and to PDF buttons
 - Categories and Products Management
-- Clients Management
+- Customer Management
 - Sales Management
 
 
@@ -39,12 +30,10 @@ A Point of Sale web app for businesses built with Python and Django for learning
 - [pip package manager](https://pip.pypa.io/en/stable/installation/)
 - [git](https://git-scm.com/downloads)
   
-#### Browser Compatibility Notice: Firefox NOT Supported ‼
-#### Please Use Chrome or Edge Browsers ‼
     
   1. Clone or download the repository:
 
-  ` git clone https://github.com/betofleitass/smart-pos`
+  ` git clone https://github.com/bilalahmedss/Smart_POS`
 
   2. Go to the project directory
 
@@ -56,12 +45,6 @@ A Point of Sale web app for businesses built with Python and Django for learning
   ```
    python -m venv venv
    venv\Scripts\Activate.ps1
-  ```
-  
-  Linux:
-  ```
-  python3 -m venv venv
-  source venv/bin/activate
   ```
 
   4. Install dependencies:  
@@ -94,18 +77,13 @@ A Point of Sale web app for businesses built with Python and Django for learning
 ## Run it locally
 After restarting your computer
 
-1. Go to the project directory: `cd django_point_of_sale`
+1. Go to the project directory: `cd Smart_POS`
 
 2. Activate the virtual enviroment
 
     PowerShell:
     ```
      venv\Scripts\Activate.ps1
-    ```
-    
-    Linux:
-    ```
-    source venv/bin/activate
     ```
 3. Go to the django_pos folder: `cd django_pos`
 
@@ -126,25 +104,4 @@ After restarting your computer
 
 9. Log In with your superuser credentials.
     
-
-## Contributing
-
-Contributions are always welcome!
-
-- Fork this repository;
-
-- Create a branch with your feature: `git checkout -b my-feature`;
-
-- Commit your changes: `git commit -m "feat: my new feature"`;
-
-- Push to your branch: `git push origin my-feature`.
-
-## Authors
-
-- [@betofleitass](https://www.github.com/betofleitass)
-
-##  License
-
-This project is under [MIT License.](https://choosealicense.com/licenses/mit/)
-
-[Back to top ⬆️](#smart-pos-) -->
+[Back to top ⬆️](#smart-pos-)
