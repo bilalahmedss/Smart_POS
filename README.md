@@ -88,7 +88,7 @@ After restarting your computer
 3. Go to the django_pos folder: `cd django_pos`
 
 4. Make database migrations:  
-  `python manage.py makemigrations` and 
+  `python manage.py makemigrations authentication` and 
   `python manage.py migrate`
 
 5. Create superuser `python manage.py createsuperuser` 
